@@ -1,0 +1,14 @@
+
+server:
+ port: 9090 # Replace 9090 with your desired port number
+
+spring:
+  application:
+    name: swagger-api
+
+camunda:
+  client:
+    mode: self-managed
+    zeebe:
+      enabled: true
+      grpc-address: http://localhost:26500
